@@ -1,4 +1,4 @@
 <?php
 
 //Upgrade Image
-Image::add_extension('Image','FocusPointImage');
+Image::add_extension('FocusPointImage','FocusPointImageExtension');
