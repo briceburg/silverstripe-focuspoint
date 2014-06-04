@@ -1,6 +1,6 @@
 <?php
 
-class FocusPointImage extends DataExtension {
+class FocusPointImageExtension extends DataExtension {
 
 	private static $db = array(
 		'FocusX' => 'Double', // Decimal number between -1 & 1, where -1 is far left, 0 is center, 1 is far right.
